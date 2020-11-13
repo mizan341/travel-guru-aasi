@@ -1,0 +1,13 @@
+.place-title {
+    color: white;
+    font-family: var(--pri-font);
+    font-size: 97px;
+}
+
+.place-description {
+    color: white;
+    font-family: var(--sec-font);
+    font-size: 16px;
+    font-weight: 300;
+}
+

@@ -1,0 +1,19 @@
+.hotel {
+    margin-top: 103px;
+    padding: 20px 0px;
+    border-top: 1px solid lightgrey;
+}
+
+.sub-heading {
+    color: #222;
+    font-size: 16px;
+    font-family: var(--sec-font);
+    font-weight: 400;
+}
+
+.heading {
+    color: #222;
+    font-size: 24px;
+    font-family: var(--sec-font);
+    font-weight: bold;
+}
