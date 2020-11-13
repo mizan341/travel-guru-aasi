@@ -4,11 +4,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-// import Booking from './components/Booking/Booking';
 import Login from './components/Login/Login';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Contact from './components/Contact/Contact';
@@ -18,7 +16,7 @@ import Hotel from './components/Hotel/Hotel';
 
 
 
-export const JourneyContext = createContext();
+export const TravelContext = createContext();
 export const BookingContext = createContext();
 export const UserContext = createContext();
 
@@ -36,7 +34,7 @@ function App() {
     success: false,
   });
   return (
-      <JourneyContext.Provider value={[selectedPlace, setSelectedPlace]} className="app">
+      <TravelContext.Provider value={[selectedPlace, setSelectedPlace]} className="app">
       <BookingContext.Provider value={[proceedToBooking, setProceedToBooking]}>
     <UserContext.Provider value={[logInUser, setLogInUser]}>
       
@@ -69,7 +67,7 @@ function App() {
    
     </UserContext.Provider>
     </BookingContext.Provider>
-    </JourneyContext.Provider>
+    </TravelContext.Provider>
   );
 }
 

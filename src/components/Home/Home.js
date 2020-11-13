@@ -10,8 +10,8 @@ const Home = () => {
     const [proceedToBooking] = useContext(BookingContext);
 
     return (
-        <div className="parallax">
-            <Container className="home pl-0">
+        <div className="frontBody">
+            <Container className="frontPage pl-0">
                 <div className="row">
                     <div className="col-md-5">
                         <PlaceDescription></PlaceDescription>

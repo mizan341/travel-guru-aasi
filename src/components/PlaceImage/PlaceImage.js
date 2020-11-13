@@ -3,10 +3,10 @@ import './PlaceImage.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import fakeData from '../../fakeData/fakeData';
-import { JourneyContext } from '../../App';
+import { TravelContext } from '../../App';
 
 const PlaceImage = () => {
-    const [selectedPlace, setSelectedPlace] = useContext(JourneyContext);
+    const [selectedPlace, setSelectedPlace] = useContext(TravelContext);
 
     return (
         <Row className="ml-auto">
@@ -20,7 +20,6 @@ const PlaceImage = () => {
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover',
                         borderRadius: '20px',
-                        boxShadow: '5px 5px 10px gray',
                         position: 'relative',
                     }
 

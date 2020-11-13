@@ -2,12 +2,12 @@ import React, { useContext } from 'react';
 import HotelDetail from '../HotelDetail/HotelDetail';
 import './Hotel.css';
 import Container from 'react-bootstrap/Container';
-import { JourneyContext } from '../../App';
+import { TravelContext } from '../../App';
 import fakeData from '../../fakeData/fakeData';
 import Location from '../Location/Location';
 
 const Hotel = () => {
-    const [selectedPlace, setSelectedPlace] = useContext(JourneyContext);
+    const [selectedPlace, setSelectedPlace] = useContext(TravelContext);
     return (
         <Container className="hotel px-0 d-flex">
             <div className="col-md-7">

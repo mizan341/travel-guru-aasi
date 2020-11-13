@@ -3,11 +3,11 @@ import './PlaceDescription.css';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { BookingContext, JourneyContext } from '../../App';
+import { BookingContext, TravelContext } from '../../App';
 import fakeData from '../../fakeData/fakeData';
 
 const PlaceDescription = () => {
-    const [selectedPlace, setSelectedPlace] = useContext(JourneyContext);
+    const [selectedPlace, setSelectedPlace] = useContext(TravelContext);
     const [proceedToBooking, setProceedToBooking] = useContext(BookingContext);
     return (
         <div className="place-info">

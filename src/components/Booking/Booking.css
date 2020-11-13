@@ -1,5 +1,5 @@
 .booking {
-    background-color: #fff;
+    background-color: rgb(245, 236, 236);
     width: 500px;
     padding: 20px;
     border-radius: 5px;
@@ -9,49 +9,17 @@
     margin-bottom: 10px;
 }
 
-label {
-    color:#273c75;
-    font-size: 16px;
-    font-family: var(--sec-font);
-    font-weight: 500;
-}
-
-.date-picker .form-field {
-    margin: 0 5px;
-}
-
-.input-box {
-    background-color: #F2F2F2 !important;
-    border: none !important;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.date-input {
-    background-color: transparent !important;
-    border: none !important;
-}
 
 .calender-icon {
-    width: 8%;
-}
-
-input::placeholder {
-    font-size: 14px;
-    font-weight: 600;
-    font-family: var(--sec-font);
-    color: #222 !important;
+    width: 9%;
 }
 
 .booking-btn{
-    background-color: var(--pri-color) !important;
+    background-color: #F9A51A;
     border: none !important;
     border-radius: 5px;
-    color: #222 !important;
     padding: 10px 0px !important; 
     margin-top: 10px;
-    font-size: 16px !important;
-    font-weight: 500 !important;
     transition: all linear 0.4s;
     width: 100%;
 }

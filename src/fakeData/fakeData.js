@@ -8,7 +8,7 @@ const fakeData = [
         longDescription: "Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts.",
         hotel: [
             {
-                imageUrl: 'https://i.ibb.co/QvySjL1/Rectangle-26.png',
+                imageUrl: 'https://media.nomadicmatt.com/hotelreview1a.jpg',
                 name: 'Light bright airy stylish apt & safe peaceful stay',
                 guest: 4,
                 bed: 2,
@@ -22,7 +22,7 @@ const fakeData = [
                 total: 167,
             },
             {
-                imageUrl: 'https://i.ibb.co/kGsnTD1/Rectangle-27.png',
+                imageUrl: 'https://lh3.googleusercontent.com/proxy/d5Bf1qxzx1M9madgUZuNweGAv78rbARE3SlQYaGGY7LmXSUSNsdt28pf9PJqV-FTLS0SMQ7nKSrozeecMIheR2NQCugzIUdLFvi6alxRrQEjhnypcrPY-N94LrM',
                 name: 'Apartment in Lost Panorama',
                 guest: 2,
                 bed: 1,
@@ -36,7 +36,7 @@ const fakeData = [
                 total: 219,
             },
             {
-                imageUrl: 'https://i.ibb.co/fxcQv07/Rectangle-28.png',
+                imageUrl: 'https://www.businessinsider.in/photo/68664363/heres-why-hotel-room-rates-in-india-may-double-in-the-next-3-to-4-years.jpg?imgsize=225157',
                 name: 'AR Lounge & Pool (r&r + b&b)',
                 guest: 5,
                 bed: 3,
@@ -61,7 +61,7 @@ const fakeData = [
         longDescription: "It is said the name Sreemangal (or Srimangal) is named after Sri Das and Mangal Das; two brothers who settled on the banks of the Hail Haor. A copper plate of Raja Marundanath from the 11th century was found in Kalapur. During an excavation at Lamua, an ancient statue of Ananta Narayan was dug out.",
         hotel: [
             {
-                imageUrl: 'https://i.ibb.co/2k2dFMx/3d-rendering-interior-and-exterior-design.jpg',
+                imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSf24bgLsmIQbkXhACma3CCiIiufYb2BrPTMg&usqp=CAU',
                 name: 'Hotel Paharika',
                 guest: 3,
                 bed: 2,
@@ -75,7 +75,7 @@ const fakeData = [
                 total: 150,
             },
             {
-                imageUrl: 'https://i.ibb.co/C25WQdp/hotel-room.jpg',
+                imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUuz0vO9HD5dCjfu8GMmnJL6cjYqfIeHZv8g&usqp=CAU',
                 name: 'Ganchil Resort',
                 guest: 2,
                 bed: 1,
@@ -89,7 +89,7 @@ const fakeData = [
                 total: 90,
             },
             {
-                imageUrl: 'https://i.ibb.co/qDLDRBZ/hotel-room-design-trends-italianbark-interior-design-blog.jpg',
+                imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDKnN-Z6i_7m21zSOVz1TkYI09GjGOsoJAHA&usqp=CAU',
                 name: 'Hotel SkyLand',
                 guest: 6,
                 bed: 3,
@@ -114,7 +114,7 @@ const fakeData = [
         longDescription: "The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh.",
         hotel: [
             {
-                imageUrl: 'https://i.ibb.co/8g13TPk/3d-rendering-interior-and-exterior-design.jpg',
+                imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQEM5C7wZXtSGHBPvJB2CcbpfNeHYG178cRvA&usqp=CAU',
                 name: 'Tirandaz-2',
                 guest: 20,
                 bed: 8,
@@ -128,7 +128,7 @@ const fakeData = [
                 total: 120,
             },
             {
-                imageUrl: 'https://i.ibb.co/sCmk3bv/900-modern-hotel-room.jpg',
+                imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQCyrV26y48X7n4t1UjRludgrCTDp-rhVO_6w&usqp=CAU',
                 name: 'Badhshah-1',
                 guest: 40,
                 bed: 12,
@@ -142,7 +142,7 @@ const fakeData = [
                 total: 179,
             },
             {
-                imageUrl: 'https://i.ibb.co/yhhtPJK/photo-1568495248636-6432b97bd949.jpg',
+                imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQG2Njn4Y7uzYhJzlYUHhxzcy5lvcV3HhItw&usqp=CAU',
                 name: 'Khulsi-3',
                 guest: 20,
                 bed: 15,

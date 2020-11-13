@@ -1,14 +1,14 @@
 import React, { useContext, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import { BookingContext, JourneyContext } from '../../App';
+import { BookingContext, TravelContext } from '../../App';
 import './Booking.css';
 import DatePicker from 'react-datepicker';
 
 const Booking = () => {
-    const [proceedToBooking, setProceedToBooking] = useContext(BookingContext);
-    const [selectedPlace, setSelectedPlace] = useContext(JourneyContext);
+    // const [proceedToBooking, setProceedToBooking] = useContext(BookingContext);
+    const [selectedPlace, setSelectedPlace] = useContext(TravelContext);
     const [startDate, setStartDate] = useState(new Date());
-    const [endDate, setEndDate] = useState(new Date());
+    const [lastDate, setLastDate] = useState(new Date());
     const history = useHistory();
 
     const handleSubmit = () => {
@@ -27,6 +27,7 @@ const Booking = () => {
                     <input className="form-control input-box" type="text" name="destination" id="destination" placeholder={selectedPlace} required />
                 </div>
                 <div className="d-flex align-items-space-between date-picker">
+                    
                     <div className="form-field">
                         <label htmlFor="from">From</label>
                         <br />
@@ -39,7 +40,7 @@ const Booking = () => {
                         <label htmlFor="to">To</label>
                         <br />
                         <div className="input-box d-flex">
-                            <DatePicker className="date-input" selected={endDate} onChange={date => setEndDate(date)} />
+                            <DatePicker className="date-input" selected={lastDate} onChange={date => setLastDate(date)} />
                             <img className="calender-icon" src="https://i.ibb.co/DWfL7zK/calender-icon.png" alt="calender-icon" />
                         </div>
                     </div>

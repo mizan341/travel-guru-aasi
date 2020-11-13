@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import GoogleMapReact from 'google-map-react';
-import { JourneyContext } from '../../App';
+import { TravelContext } from '../../App';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 function Location() {
-    const [selectedPlace, setSelectedPlace] = useContext(JourneyContext);
+    const [selectedPlace, setSelectedPlace] = useContext(TravelContext);
     const property = {
         placeOne: {
             lat: 21.433920,
