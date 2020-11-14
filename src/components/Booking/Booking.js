@@ -1,11 +1,11 @@
 import React, { useContext, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import { BookingContext, TravelContext } from '../../App';
+import {  TravelContext } from '../../App';
 import './Booking.css';
 import DatePicker from 'react-datepicker';
+import "react-datepicker/dist/react-datepicker.css"
 
 const Booking = () => {
-    // const [proceedToBooking, setProceedToBooking] = useContext(BookingContext);
     const [selectedPlace, setSelectedPlace] = useContext(TravelContext);
     const [startDate, setStartDate] = useState(new Date());
     const [lastDate, setLastDate] = useState(new Date());
